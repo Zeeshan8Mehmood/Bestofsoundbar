@@ -1,5 +1,5 @@
 const path = require("path");
-const siteURL = "https://bestofsoundbar.com";
+const siteURL = "https://www.bestofsoundbar.com";
 const disqus = "bestofsoundbar-com";
 
 module.exports = {
