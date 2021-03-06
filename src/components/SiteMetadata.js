@@ -4,12 +4,7 @@ const SiteMetaData = () => {
   const {
     site: { siteMetadata },
     markdownRemark: { frontmatter },
-  } = SiteData();
-  return { ...siteMetadata, ...frontmatter };
-};
-
-const SiteData = () => {
-  return useStaticQuery(graphql`
+  } = useStaticQuery(graphql`
     query SiteInfo {
       site {
         siteMetadata {
@@ -22,9 +17,14 @@ const SiteData = () => {
           youtube
           twitter
           facebook
+          disqus
           number
           dmca
           dmcaLink
+          linkType
+          nofollow
+          noindex
+          sitemap
           cookies {
             enabled
             message
@@ -108,6 +108,8 @@ const SiteData = () => {
       }
     }
   `);
+
+  return { ...siteMetadata, ...frontmatter };
 };
 
 export default SiteMetaData;

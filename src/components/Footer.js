@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="colophon" itemType="https://schema.org/WPFooter" itemScope="itemscope" itemID="#colophon">
       <div className="footer-bottom">
         <div className="footer-logo has-text-centered">
           <div className="logo-container">
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               </div>
             )}
-            <p>{title} © 2020. All rights reserved.</p>
+            <p>{title} © 2021. All rights reserved.</p>
           </div>
         </div>
       </div>

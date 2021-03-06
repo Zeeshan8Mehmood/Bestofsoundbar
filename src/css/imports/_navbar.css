@@ -172,7 +172,6 @@
 @media screen and (min-width: 1024px) {
   .navbar,
   .navbar-menu,
-  .navbar-start,
   .navbar-end {
     display: flex;
   }
@@ -192,10 +191,6 @@
     flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
-  }
-  .navbar-start {
-    justify-content: flex-start;
-    margin-right: auto;
   }
   .navbar .container .navbar-menu {
     margin-right: -0.75rem;
