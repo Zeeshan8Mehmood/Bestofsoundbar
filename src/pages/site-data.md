@@ -32,9 +32,9 @@ topNav:
     child:
       - title: Soundbar
         link: /soundbar/
-        child:
-          - title: Soundbar Mount
-            link: /soundbar-mount/
+        child: []
+      - title: Soundbar Mount
+        link: /soundbar-mount/
   - title: Blog
     link: /blog/
   - title: Comparison
