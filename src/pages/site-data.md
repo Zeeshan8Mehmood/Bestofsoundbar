@@ -11,24 +11,34 @@ twitter: https://twitter.com/DILDILP31580225
 number: "+923022222364"
 dmca: false
 dmcaLink: www.google.com
+cookies:
+  enabled: false
+  message: NA
 colors:
+  btnColor: "#ffffff"
+  headerTextColor: "#000"
+  btnBackground: "#4f3c8b"
   background: "#f7f7f7"
+  btnHoverBackground: "#6c51bf"
+  navbarShadow: "#fff"
+  textColor: "#000"
   blockBackground: "#ffffff"
   headerBackground: "#4f3c8b"
-  textColor: "#000"
-  btnBackground: "#4f3c8b"
-  btnHoverBackground: "#6c51bf"
-  btnColor: "#ffffff"
-  navbarShadow: "#fff"
 topNav:
   - title: Home
     link: https://www.bestofsoundbar.com/
-  - title: Soundbar
-    link: /Soundbar/
-  - title: Soundbar Mount
-    link: /soundbar-mount/
+  - title: Buying Guide
+    link: /buying-guide/
+    child:
+      - title: Soundbar
+        link: /soundbar/
+        child:
+          - title: Soundbar Mount
+            link: /soundbar-mount/
   - title: Blog
     link: /blog/
+  - title: Comparison
+    link: /comparison/
 footerNav:
   - title: About Us
     link: /about-us/
