@@ -35,6 +35,8 @@ topNav:
         child: []
       - title: Soundbar Mount
         link: /soundbar-mount/
+      - title: Surround Sound System
+        link: /surround-sound-system/
   - title: Blog
     link: /blog/
   - title: Comparison
