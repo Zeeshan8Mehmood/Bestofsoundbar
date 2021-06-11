@@ -16,7 +16,7 @@ cookies:
   message: NA
 colors:
   btnColor: "#ffffff"
-  headerTextColor: "#000"
+  headerTextColor: "#ffffff"
   btnBackground: "#4f3c8b"
   background: "#f7f7f7"
   btnHoverBackground: "#6c51bf"
