@@ -7,7 +7,7 @@ faviconSmall: /img/16.png
 faviconLarge: /img/32.png
 facebook: https://www.facebook.com/
 youtube: https://www.youtube.com/
-twitter: https://twitter.com/DILDILP31580225
+twitter: https://twitter.com
 number: "+923022222364"
 dmca: false
 dmcaLink: www.google.com
