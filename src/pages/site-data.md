@@ -115,6 +115,29 @@ ads:
       \     (adsbygoogle = window.adsbygoogle || []).push({});\r
 
       </script>"
+    stickyMobile: "<script async
+      src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></\
+      script>\r
+
+      <!-- Display aids for mobile -->\r
+
+      <ins class=\"adsbygoogle\"\r
+
+      \     style=\"display:block\"\r
+
+      \     data-ad-client=\"ca-pub-9695185134240833\"\r
+
+      \     data-ad-slot=\"1111975654\"\r
+
+      \     data-ad-format=\"auto\"\r
+
+      \     data-full-width-responsive=\"true\"></ins>\r
+
+      <script>\r
+
+      \     (adsbygoogle = window.adsbygoogle || []).push({});\r
+
+      </script>"
 topNav:
   - title: Home
     link: https://www.bestofsoundbar.com/
